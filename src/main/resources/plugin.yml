@@ -1,0 +1,7 @@
+name: Vysteria-RankedSpawners
+version: ${project.version}
+main: dev.xcodiq.vysteriarankedspawners.RankedSpawners
+api-version: 1.13
+authors: [xCodiq, Vysteria]
+description: Vysteria Ranked Spawners with custom shop and rankup system
+website: www.vysteria.com
