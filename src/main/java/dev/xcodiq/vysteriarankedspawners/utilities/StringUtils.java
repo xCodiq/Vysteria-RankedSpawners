@@ -1,0 +1,59 @@
+/*
+ *   ~
+ *   ~ Copyright 2020 NeverEndingPvP. All rights reserved.
+ *   ~
+ *   ~ Licensed under the NeverEndingPvP License, Version 1.0 (the "License");
+ *   ~ you may not use this file except in compliance with the License.
+ *   ~
+ *   ~ You are not allowed to edit the source.
+ *   ~ You are not allowed to edit this text.
+ *   ~ You are not allowed to sell this source.
+ *   ~ You are not allowed to distribute this source in any way.
+ *   ~ You are not allowed to claim this as yours.
+ *   ~ You are not allowed to distribute.
+ *   ~ You are not allowed to make own terms.
+ *   ~ You are not allowed to place own warranty.
+ *   ~ You are not allowed to make any sublicense.
+ *   ~
+ *   ~ Unless required by applicable law or agreed to in writing, software
+ *   ~ distributed under the License is distributed on an "AS IS" BASIS.
+ *   ~
+ *   ~ Author: xCodiq (Discord: Codiq#3662)
+ *   ~
+ */
+
+package dev.xcodiq.vysteriarankedspawners.utilities;
+
+public class StringUtils {
+
+    public static String toStackName(String input) {
+        switch (input) {
+            case "Pig":
+                return "pig";
+            case "Cow":
+                return "cow";
+            case "Chicken":
+                return "chicken";
+            case "Spider":
+                return "spider";
+            case "Zombie":
+                return "zombie";
+            case "Skeleton":
+                return "skeleton";
+            case "Creeper":
+                return "creeper";
+            case "Blaze":
+                return "blaze";
+            case "Zombie Pigman":
+                return "pig_zombie";
+            case "Iron Golem":
+                return "iron_golem";
+            case "Silverfish":
+                return "silverfish";
+            case "Villager":
+                return "villager";
+            default:
+                return "Pig";
+        }
+    }
+}

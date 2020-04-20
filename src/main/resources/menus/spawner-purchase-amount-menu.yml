@@ -1,0 +1,19 @@
+title: "&d{NAME} Spawner Shop"
+rows: 3
+glass-item:
+  material: STAINED_GLASS_PANE
+  data: 6
+  displayname: "&7{NAME} Spawner Shop"
+  lore: []
+spawner-item-format:
+  material: MOB_SPAWNER
+  data: 0
+  displayname: "&d&l{AMOUNT}x {MOB} Spawner"
+  lore:
+    - "&7You are currently buying spawners"
+    - " "
+    - "&dInformation"
+    - "  &5• &7Amount: &f{AMOUNT}x"
+    - "  &5• &7Price: &f${COST}"
+    - " "
+    - "&7&o(( Click to purchase {AMOUNT} spawners ))"

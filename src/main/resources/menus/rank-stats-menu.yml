@@ -1,0 +1,49 @@
+title: "&dRank Statistics"
+rows: 1
+glass-item:
+  material: STAINED_GLASS_PANE
+  data: 6
+  displayname: "&7Rank Statistic Menu"
+  lore: []
+blocks:
+  material: GRASS
+  data: 0
+  slot: 4
+  displayname: "&d&lBlocks Mined &7(/warp mine)"
+  lore:
+    - "&7Mine your way through the mines to"
+    - "&7to get the right amount of blocks"
+    - "&7mined to get closer to max island rank!"
+    - " "
+    - "&dInformation"
+    - "  &5• &7Blocks Mined: &f{BLOCKS_CURRENT}"
+    - " "
+    - "&7&o(( Mine blocks to increase this statistic ))"
+mobs:
+  material: BLAZE_ROD
+  data: 0
+  slot: 3
+  displayname: "&d&lMobs Killed &7(/warp mobarena)"
+  lore:
+    - "&7It might be one of the main reasons"
+    - "&7you are here, or maybe not... However"
+    - "&7slaying mobs is something to continue!"
+    - " "
+    - "&dInformation"
+    - "  &5• &7Mobs Killed: &f{MOBS_CURRENT}"
+    - " "
+    - "&7&o(( Kill Mobs to increase this statistic ))"
+fish:
+  material: RAW_FISH
+  data: 0
+  slot: 5
+  displayname: "&d&lFish Caught &7(/warp fishing)"
+  lore:
+    - "&7A skill that is centuries old, the"
+    - "&7most efficient way to get food and,"
+    - "&7not to forget, a super fun hobby!"
+    - " "
+    - "&dInformation"
+    - "  &5• &7Fish Caught: &f{FISH_CURRENT}"
+    - " "
+    - "&7&o(( Catch Fish to increase this statistic ))"

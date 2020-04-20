@@ -1,0 +1,139 @@
+ranks:
+  0:
+    name: "0"
+    blocks: 0
+    mobs: 0
+    fish: 0
+    commands: []
+    rewards: []
+  1:
+    name: "1"
+    blocks: 1000
+    mobs: 250
+    fish: 5
+    commands:
+      - "ss give %player% Cow 1"
+      - "is admin setblocklimit %player% HOPPER 100"
+      - "is admin setteamlimit %player% 5"
+    rewards:
+      - "1x Cow Spawner"
+      - "100x Hopper Limit"
+      - "5 Island Member Limit"
+  2:
+    name: "2"
+    blocks: 1500
+    mobs: 250
+    fish: 15
+    commands:
+      - "crate gk %player% Rare 3"
+      - "is admin setblocklimit %player% HOPPER 250"
+      - "is admin setteamlimit %player% 6"
+    rewards:
+      - "3x Rare Keys"
+      - "250x Hopper Limit"
+      - "6 Island Member Limit"
+      - "Uncommon Spawners Unlocked"
+  3:
+    name: "3"
+    blocks: 4000
+    mobs: 500
+    fish: 25
+    commands:
+      - "crate give %player% Rare 3"
+      - "is admin setblocklimit %player% HOPPER 500"
+      - "is admin setteamlimit %player% 7"
+    rewards:
+      - "3x Rare Keys"
+      - "500x Hopper Limit"
+      - "7 Island Member Limit"
+  4:
+    name: "4"
+    blocks: 5000
+    mobs: 500
+    fish: 25
+    commands:
+      - "crate gk %player% Rare 3"
+      - "is admin setsize %player% 300"
+      - "is admin setteamlimit %player% 8"
+    rewards:
+      - "3x Rare Keys"
+      - "300x300 Island Size"
+      - "8 Island Member Limit"
+      - "Rare Spawners Unlocked"
+  5:
+    name: "5"
+    blocks: 5000
+    mobs: 500
+    fish: 25
+    commands:
+      - "crate gk %player% Legendary 3"
+      - "is admin setsize %player% 350"
+      - "is admin setteamlimit %player% 9"
+      - "is admin setspawnerrates %player% 3.0"
+    rewards:
+      - "3x Legendary Keys"
+      - "350x350 Island Size"
+      - "3.0x Spawner Rate"
+      - "9 Island Member Limit"
+  6:
+    name: "6"
+    blocks: 5000
+    mobs: 500
+    fish: 30
+    commands:
+      - "crate gk %player% Legendary 3"
+      - "is admin setcropgrowth %player% 3.0"
+      - "is admin setteamlimit %player% 10"
+    rewards:
+      - "3x Legendary Keys"
+      - "3.0x Crop Growth Rate"
+      - "Legendary Spawners Unlocked"
+      - "10 Island Member Limit"
+  7:
+    name: "7"
+    blocks: 8000
+    mobs: 500
+    fish: 35
+    commands:
+      - "crate gk %player% Legendary 3"
+      - "is admin setcropgrowth %player% 3.5"
+      - "is admin setspawnerrates %player% 3.5"
+    rewards:
+      - "3x Legendary Keys"
+      - "3.5x Crop Growth Rate"
+      - "3.5x Spawner Rate"
+  8:
+    name: "8"
+    blocks: 8000
+    mobs: 1000
+    fish: 45
+    commands:
+      - "crate give %player% Legendary 3"
+      - "is admin setmobdrops %player% 4.0"
+    rewards:
+      - "3x Legendary Keys"
+      - "4.0x Mob Drops Rate"
+      - "Epic Spawners Unlocked"
+  9:
+    name: "9"
+    blocks: 10000
+    mobs: 1000
+    fish: 50
+    commands:
+      - "crate give %player% Legendary 3"
+      - "is admin setcropgrowth %player% 4.0"
+    rewards:
+      - "3x Legendary Keys"
+      - "4.0x Crop Growth Rate"
+  10:
+    name: "10"
+    blocks: 10000
+    mobs: 1000
+    fish: 50
+    commands:
+      - "crate give %player% Legendary 3"
+      - "is admin setblocklimit %player% HOPPER 1000"
+    rewards:
+      - "3x Legendary Keys"
+      - "1,000x Hopper Limit"
+      - "Mythical Spawners Unlocked"

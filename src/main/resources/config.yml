@@ -1,0 +1,12 @@
+messages:
+
+  no-island: "&c&l[!] &cYou are not on an island"
+  bought-spawner: "&d&l[!] &dYou bought {AMOUNT}x {NAME} Spawners"
+  cannot-buy: "&d&l[!] &dYou cannot affort this item"
+
+  rank:
+    ranked-up: "&d&l[!] &dYour island has ranked up"
+    no-rankup: "&d&l[!] &dYour island is already the highest rank"
+    only-owners-admins: "&d&l[!] &dOnly island owners/admins can rankup"
+    cannot-rankup-yet: "&d&l[!] &dYour island does not qualify for the next rank yet"
+    cannot-open-shop-yet: "&d&l[!] &dYour island does not qualify for this shop yet"

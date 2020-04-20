@@ -1,0 +1,95 @@
+title: "&dSpawner Shop"
+rows: 3
+glass-item:
+  material: STAINED_GLASS_PANE
+  data: 6
+  displayname: "&7Spawner Shop"
+  lore: []
+spawner-item-format:
+  material: MOB_SPAWNER
+  data: 0
+  displayname: "&d&l{NAME} Spawners"
+  lore:
+    - "&7Spawners can be used to increase"
+    - "&7island worth to get on the leaderboards!"
+    - " "
+    - "&dInformation"
+    - "  &5• &7Rank Required: &f{RANK_REQUIRED}"
+    - "  &5• &7Spawners: &f{SPAWNERS}"
+    - "  &5• &7Status: {STATUS}"
+    - " "
+    - "&7&o(( Click to open the shop ))"
+
+categories:
+  Common:
+    slot: 10
+    rank-required: 0
+    mob-spawners:
+      Pig:
+        cost: 100000
+        drops:
+          - "2x Coal"
+      Cow:
+        cost: 150000
+        drops:
+          - "1x Lapis"
+  Uncommon:
+    slot: 11
+    rank-required: 2
+    mob-spawners:
+      Chicken:
+        cost: 200000
+        drops:
+          - "1x Cooked Chicken"
+      Spider:
+        cost: 350000
+        drops:
+          - "1x Carrot"
+  Rare:
+    slot: 12
+    rank-required: 4
+    mob-spawners:
+      Zombie:
+        cost: 500000
+        drops:
+          - "1x Gold"
+      Skeleton:
+        cost: 750000
+        drops:
+          - "2x Redstone"
+  Legendary:
+    slot: 14
+    rank-required: 6
+    mob-spawners:
+      Creeper:
+        cost: 1000000
+        drops:
+          - "1x Ender Pearl"
+      Blaze:
+        cost: 1250000
+        drops:
+          - "2x Iron"
+  Epic:
+    slot: 15
+    rank-required: 8
+    mob-spawners:
+      Zombie Pigman:
+        cost: 1750000
+        drops:
+          - "2x Diamond"
+      Iron Golem:
+        cost: 3000000
+        drops:
+          - "1x Diamond"
+  Mythical:
+    slot: 16
+    rank-required: 10
+    mob-spawners:
+      Silverfish:
+        cost: 6000000
+        drops:
+          - "1x Emerald"
+      Villager:
+        cost: 9000000
+        drops:
+          - "2x Emerald"

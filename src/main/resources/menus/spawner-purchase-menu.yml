@@ -1,0 +1,21 @@
+title: "&d{NAME} Spawner Shop"
+rows: 3
+glass-item:
+  material: STAINED_GLASS_PANE
+  data: 6
+  displayname: "&7{NAME} Spawner Shop"
+  lore: []
+spawner-item-format:
+  material: MOB_SPAWNER
+  data: 0
+  displayname: "&d&l{MOB} Spawner"
+  lore:
+    - "&7Spawners can be used as a money"
+    - "&7maker. Hover to see the information!"
+    - " "
+    - "&dInformation"
+    - "  &5• &7Cost: &f${COST}"
+    - "  &5• &7Drops: &f{DROPS}"
+    - ""
+    - "&7&o(( Left-Click to purchase 1 spawner ))"
+    - "&7&o(( Right-Click to select the amount ))"

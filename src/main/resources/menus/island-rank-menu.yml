@@ -1,0 +1,68 @@
+title: "&dIsland Rankup"
+rows: 3
+glass-item:
+  material: STAINED_GLASS_PANE
+  data: 6
+  displayname: "&7Island Rankup Menu"
+  lore: []
+rankup-rewards:
+  material: CHEST
+  data: 0
+  slot: 14
+  displayname: "&d&lRankup Rewards"
+  lore:
+    - "&7This is a short list of rewards you"
+    - "&7will earn when your island ranks up!"
+    - " "
+    - "&dRewards"
+    - "{REWARDS}"
+    - " "
+    - "&7&o(( Mine, Kill and Fish to earn these rewards ))"
+rankup-statistics:
+  material: DIAMOND
+  data: 0
+  slot: 10
+  displayname: "&d&lRankup Statistics"
+  lore:
+    - "&7All your rankup statistics are"
+    - "&7stored in this menu. Click to"
+    - "&7have a quick look at them!"
+rankup-list:
+  material: INK_SACK
+  data: 9
+  slot: 16
+  displayname: "&d&lRankup Tiers"
+  lore:
+    - "&7Click to get a list of all the"
+    - "&7the rankups in one simple menu!"
+rankup-information-item:
+  slot: 12
+  completed:
+    material: NETHER_STAR
+    data: 0
+    displayname: "&d&lRankup Information"
+    lore:
+      - "&7You have completed the journey"
+      - "&7through out the rankups."
+      - ""
+      - "&dProgress"
+      - "&aCompleted &7(100%)"
+      - ""
+      - "&7&o(( Click to close this menu ))"
+  not-completed:
+    material: NETHER_STAR
+    data: 0
+    displayname: "&d&lRankup Information &7(Rank. {CURRENT_RANK})"
+    lore:
+      - "&7Upgrade your island rank to max"
+      - "&7out the ways you play the server!"
+      - " "
+      - "&dInformation"
+      - "  &5• &7Blocks Needed: {BLOCKS_CURRENT}/{BLOCKS_MAX}"
+      - "  &5• &7Mobs Needed: {MOBS_CURRENT}/{MOBS_MAX}"
+      - "  &5• &7Fish Needed: {FISH_CURRENT}/{FISH_MAX}"
+      - " "
+      - "&dProgress"
+      - "{PROGRESS_BAR} &7({PROGRESS_PERCENTAGE}%)"
+      - ""
+      - "&7&o(( Click to rankup to the next rank ))"

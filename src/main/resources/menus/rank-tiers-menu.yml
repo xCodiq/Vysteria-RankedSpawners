@@ -1,0 +1,19 @@
+title: "&dRank Tiers"
+rows: 4
+glass-item:
+  material: STAINED_GLASS_PANE
+  data: 6
+  displayname: "&7Rank Tiers Menu"
+  lore: []
+rank-tier-format:
+  material: INK_SACK
+  data: 9
+  displayname: "&d&lRank {RANK}"
+  lore:
+    - "&7Rewards you will receive when"
+    - "&7rankup to this rank are listed below!"
+    - " "
+    - "&dRewards"
+    - "{REWARDS}"
+    - " "
+    - "&7&o(( Click to go back ))"
